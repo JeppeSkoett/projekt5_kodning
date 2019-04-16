@@ -10,40 +10,41 @@
     
  </head>
 
- <body>
+ <body bgcolor="#4d94ff">
   <js src="js/main.js"></js>
   
   <div class="sound">
    <h2>SFX VOLUME</h2>
-   <form>
-    On<input type="radio" name="sound" value="On" checked>
-    Off<input type="radio" name="sound" value="Off">
-   </form>
+    <label class="switch">
+     <input type="checkbox" checked>
+     <span class="slider round"></span>
+    </label>
   </div>
      
   <div class="animation"> 
    <h2>FX ANIMATION</h2>
-   <form>
-    On<input type="radio" name="animation" value="On" checked>
-    Off<input type="radio" name="animation" value="Off">
-   </form>
+    <label class="switch">
+     <input type="checkbox" checked>
+     <span class="slider round"></span>
+    </label>
   </div>
      
   <div class="login"> 
-   <h2>LOGIN</h2>
+   <h2>ACCOUNT</h2>
    <form>
     <input type="text" name="username" placeholder="Username">
-    <p></p>
+     <p></p>
     <input type="password" name="pwd" placeholder="Password">
+    <input type="submit" name="login" value="Login"> 
    </form>
   <div class="container signin">
-    <p>Make an account? <a href="#">Sign up</a>.</p>
+   <p>Make an account? <a href="#">Sign up</a></p>
   </div>
   </div>
 
   <div class="backbutton">
-     <img src="images/tilbage_knap.png" alt="backbtn">
-     </div> 
+   <img src="images/tilbage_knap.png" alt="backbtn">
+  </div> 
 
     
  </body>
