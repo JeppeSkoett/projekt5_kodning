@@ -1,0 +1,74 @@
+.background {
+    background-color: darkblue;
+    height: 100%;
+    width: 100%;
+}
+
+.sound {
+    background-color: cornflowerblue;
+    position: fixed;
+    border-radius: 25px;
+    border-style: groove;
+    height: 90px;
+    width: 275px; 
+    margin-top: 5%;
+    left: 5%;
+    
+}
+
+.sound h2 {
+    margin-right: 21%;
+    margin-left: 21%;
+}
+
+.sound form {
+    margin-right: 25%;
+    margin-left: 30%;
+}
+
+.animation {
+    background-color: cornflowerblue;
+    position: fixed;
+    border-radius: 25px;
+    border-style: groove;
+    height: 90px;
+    width: 275px;
+    margin-top: 5%;
+    right: 5%;
+}
+
+.animation h2 {
+    margin-right: 16%;
+    margin-left: 16%;
+}
+
+.animation form {
+    margin-right: 34%;
+    margin-left: 34%;
+}
+
+.login {
+    background-color: cornflowerblue;
+    position: fixed;
+    border-radius: 25px;
+    border-style: groove;
+    height: 180px;
+    width: 250px; 
+    margin-top: 22%;
+    left: 32%;
+}
+
+.login h2 {
+    margin-right: 33%;
+    margin-left: 33%;
+}
+
+.login p {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.login form {
+    margin-right: 21%;
+    margin-left: 25%;
+}

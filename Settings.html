@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html>
 
-<head lang=en>
+ <head lang=en>
     
-    <meta charset="utf-8">
-    <title>Indstillinger</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Indstillinger</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
     
-</head>
+ </head>
 
-<body>
-    
+ <body>
+  <js src="js/main.js"></js>
+  
+  <div class=background>
+  <div class="sound">
+   <h2>SFX VOLUME</h2>
+   <form>
+    On<input type="radio" name="sound" value="On" checked>
+    Off<input type="radio" name="sound" value="Off">
+   </form>
+  </div>
+     
+  <div class="animation"> 
+   <h2>FX ANIMATION</h2>
+   <form>
+    On<input type="radio" name="animation" value="On" checked>
+    Off<input type="radio" name="animation" value="Off">
+   </form>
+  </div>
+     
+  <div class="login"> 
+   <h2>LOGIN</h2>
+   <form>
+    <input type="text" name="username" placeholder="Username">
+    <p></p>
+    <input type="password" name="pwd" placeholder="Password">
+   </form>
+  <div class="container signin">
+    <p>Make an account? <a href="#">Sign up</a>.</p>
+  </div>
+  </div>
+  </div>
 
     
-</body>
+ </body>
 </html>
