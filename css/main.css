@@ -162,7 +162,7 @@ input:checked + .slider:before {
 
 .login p {
     color: white;
-    margin-top: 7%;
+    margin-top: 5%;
     margin-right: 24%;
     margin-left: 25.5%;
 }
@@ -178,25 +178,24 @@ input:checked + .slider:before {
     border-bottom: 1px solid #fff;
     background: transparent;
     outline: none;
+    text-align: center;
     height: 15px;
     color: white;
     font-size: 15px;
 }
-
 
 .login input[type="submit"] {
     margin-top: 3%;
     margin-left: 40%;
     border: none;
     outline: none;
-    background: palevioletred;
+    background: #4d94ff;
     color: white;
     font-size: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .backbutton {
     position: fixed;
     margin-top: 46%;
 }
-
