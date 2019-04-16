@@ -1,3 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+/*============================================== Bank page - Jeppe Skoett =================================================================================*/
+}
+
+.buyoptions{
+    height: 0.01px;
+    width: auto;
+}
+
+.buy{
+    background-color: black;
+    height: 100px;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 50px;
+    color: white;
+    position: relative;
+}
+
+.buy p{
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 25px;
+
+}
+
+.backbtn{
+    position: fixed;
+
+}
+
 .background {
     background-color: darkblue;
     height: 100%;
