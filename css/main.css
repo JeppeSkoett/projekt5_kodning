@@ -42,7 +42,7 @@
 }
 
 .sound {
-    background-color: cornflowerblue;
+    background-color: palevioletred;
     position: fixed;
     border-radius: 25px;
     border-style: groove;
@@ -53,19 +53,14 @@
 }
 
 .sound h2 {
+    color: white;
     margin-top: 2%;
     margin-right: 21%;
     margin-left: 21%;
 }
 
-.sound form {
-    margin-top: 5%;
-    margin-right: 37%;
-    margin-left: 37%;
-}
-
 .animation {
-    background-color: cornflowerblue;
+    background-color: palevioletred;
     position: fixed;
     border-radius: 25px;
     border-style: groove;
@@ -76,44 +71,106 @@
 }
 
 .animation h2 {
+    color: white;
     margin-top: 2%;
     margin-right: 15%;
     margin-left: 18%;
 }
 
-.animation form {
-    margin-top: 5%;
-    margin-right: 37%;
-    margin-left: 37%;
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.sound label {
+    margin-left: 42%;
+    margin-right: 46%;
+}
+
+.animation label {
+    margin-left: 42%;
+    margin-right: 46%;
 }
 
 .login {
-    background-color: cornflowerblue;
+    background-color: palevioletred;
     position: fixed;
     border-radius: 25px;
     border-style: groove;
-    height: 180px;
-    width: 250px; 
+    height: 160px;
+    width: 350px; 
     margin-top: 18%;
-    left: 32%;
+    left: 23%;
 }
 
 .login h2 {
+    color: white;
     margin-top: 2%;
-    margin-right: 33%;
-    margin-left: 33%;
+    margin-right: 37%;
+    margin-left: 38%;
 }
 
 .login p {
-    margin-top: 8%;
-    margin-right: 15%;
-    margin-left: 15%;
+    color: white;
+    margin-top: 7%;
+    margin-right: 24%;
+    margin-left: 25.5%;
 }
 
 .login form {
     margin-top: 7%;
-    margin-right: 21%;
-    margin-left: 25%;
+    margin-right: 29.5%;
+    margin-left: 32%;
 }
 
 .backbutton {
