@@ -42,8 +42,15 @@ h1{
 .buy{
     background-color: black;
     height: 100px;
-    width: auto;
+    width: 991px;
     margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.bgcolor{
+    height: auto;
+    width: auto;
+    background-color: chartreuse;
 }
 
 .buy p{
@@ -54,12 +61,10 @@ h1{
     font-size: 45px;
     color: white;
     position: relative;
-
 }
 
 .backbtn{
     position: fixed;
-
 }
 
 /*Settings - Andreas*/
