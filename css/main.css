@@ -232,7 +232,6 @@ input:checked + .slider:before {
     position: fixed;
     margin-top: 46%;
 }
-<<<<<<< HEAD
 
 /*SoMe - Andreas*/
 
@@ -267,7 +266,6 @@ input:checked + .slider:before {
     text-align: center;
     color: white;
     border-bottom: 2px groove #fff;
-
 }
 
 .box {
