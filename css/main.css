@@ -283,6 +283,7 @@ input:checked + .slider:before {
     text-align: center;
     color: white;
     border-bottom: 2px groove #fff;
+    cursor: pointer;
 }
 
 .box {
@@ -328,4 +329,42 @@ input:checked + .slider:before {
     position: fixed;
     margin-top: 30.3%;
     margin-left: 0.75%;
+}
+
+#share {
+	width: 100%;
+  	text-align: center;
+}
+
+#share a {
+	width: 35px;
+  	height: 35px;
+  	display: inline-block;
+  	margin: 3px;
+  	border-radius: 50%;
+  	font-size: 24px;
+  	color: #fff;
+	transition: opacity 0.15s linear;
+}
+
+#share a:hover {
+	opacity: 1;
+}
+
+#share i {
+  	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.facebook {
+ 	background: #3b5998;
+}
+
+.twitter {
+  	background: #55acee;
+}
+
+.youtube {
+  	background: #dd4b39;
 }
