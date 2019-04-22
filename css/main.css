@@ -225,7 +225,7 @@ input:checked + .slider:before {
 
 .login input[type="text"], input[type="password"] {
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
     background: transparent;
     outline: none;
     text-align: center;
@@ -248,4 +248,84 @@ input:checked + .slider:before {
 .backbutton {
     position: fixed;
     margin-top: 46%;
+}
+
+/*SoMe - Andreas*/
+
+.friends h2 {
+    color: white;
+    font-family: sans-serif;
+    margin-top: 1%;
+    margin-left: 70.5%;
+    margin-right: 12.5%;
+    border-bottom: 2px groove #fff;
+    border-radius: 7px;
+    text-align: center;
+    position: fixed;
+}
+
+.friendlist {
+    background-color: palevioletred;
+    height: 325px;
+    width: 275px;
+    border-style: groove;
+    border-radius: 25px;
+    margin-left: 56%;
+    margin-top: 6.5%;
+    overflow: auto;
+    position: fixed;
+}
+
+.friend {
+    background-color: palevioletred;
+    height: 46.42px;
+    margin-top: 12%;
+    text-align: center;
+    color: white;
+    border-bottom: 2px groove #fff;
+}
+
+.box {
+    background-color: palevioletred;
+    height: 250px;
+    width: 325px;
+    border-style: groove;
+    border-radius: 25px;
+    position: fixed;
+    margin-left: 1.5%;
+    margin-top: 6.5%;    
+}
+
+.yourtown h2 {
+    color: white;
+    font-family: sans-serif;
+    margin-top: 1%;
+    margin-left: 18%;
+    margin-right: 57%;
+    border-bottom: 2px groove #fff;
+    border-radius: 7px;
+    text-align: center;
+    position: fixed;
+}
+
+.town {
+    background-color: palevioletred;
+    height: 190px;
+    width: 310px;
+    border-style: groove;
+    border-radius: 25px;
+    position: fixed;
+    margin-left: 0.75%;
+    margin-top: 0.5%;
+}
+
+.someshare {
+    background-color: palevioletred;
+    height: 40px;
+    width: 310px;
+    border-style: groove;
+    border-radius: 25px;
+    position: fixed;
+    margin-top: 30.3%;
+    margin-left: 0.75%;
 }
