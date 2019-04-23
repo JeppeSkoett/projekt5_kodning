@@ -131,6 +131,10 @@ h3 {
 
 /*Settings - Andreas*/
 
+.back{
+    background-image: url(/images/city.png);
+}
+
 .sound {
     background-color: dimgrey;
     position: fixed;
@@ -415,9 +419,9 @@ input:checked + .slider:before {
     
     position: fixed;
     top: 5%;
-    left: 70%;
+    left: 75%;
     float: left;
     margin: 5px;
     color: #F0F8FF;
-    font-size: 50px;
+    font-size: 30px;
 }
