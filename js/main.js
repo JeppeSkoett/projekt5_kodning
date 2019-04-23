@@ -1,10 +1,10 @@
 //js til loading bar på index.html - mathias
 function update() {
   let elem = document.getElementById("progress");
-  let width = 1;
+  let width = 0;
   let id = setInterval(frame, 20);
   function frame() {
-    if (width >= 100) {
+    if (width == 100) {
       clearInterval(id);
       location.replace("city.html");
     } else {
