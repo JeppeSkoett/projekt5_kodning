@@ -10,6 +10,12 @@
   background-color: black;
 }
 
+.wrapper1 {
+  width: auto;
+  height: 375px;
+  background-image: url("images/city.png");
+}
+
 .index_box {
   width: 50%;
   text-align: center;
@@ -34,13 +40,13 @@
 
 .index_box h1 {
   color: white;
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Carter One', cursive;
   font-size: 30px;
 }
 
 .index_box_styleguide h2 {
   color: white;
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Carter One', cursive;
 }
 
 #logo {
@@ -53,7 +59,7 @@
 
 h3 {
   text-align: center;
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Carter One', cursive;
   font-size: 35px;
   color: white;
   padding: 2.5%;
@@ -94,7 +100,7 @@ h3 {
     margin-left: 200px;
     margin-right: 200px;
     padding-top: 25px;
-    font-family: sans-serif;
+    font-family: 'Carter One', cursive;
     font-size: 45px;
     color: white;
     position: relative;
@@ -105,12 +111,11 @@ h3 {
     background-color: white;
     display: none;
     overflow: hidden;
-<<<<<<< HEAD
 }
 
 .paneltxt{
     font-size: 2em;
-    font-family: sans-serif;
+    font-family: 'Carter One', cursive;
 }
 
 .active, .buy:hover{
@@ -136,6 +141,7 @@ h3 {
     position: fixed;
     border-radius: 25px;
     border-style: groove;
+    box-shadow: 10px 10px 5px grey;
     height: 75px;
     width: 275px;
     margin-top: 3%;
@@ -147,6 +153,7 @@ h3 {
     margin-top: 2%;
     margin-right: 21%;
     margin-left: 21%;
+    font-family: 'Carter One', cursive;
 }
 
 .animation {
@@ -154,6 +161,7 @@ h3 {
     position: fixed;
     border-radius: 25px;
     border-style: groove;
+    box-shadow: 10px 10px 5px grey;
     height: 75px;
     width: 275px;
     margin-top: 3%;
@@ -165,6 +173,7 @@ h3 {
     margin-top: 2%;
     margin-right: 15%;
     margin-left: 18%;
+    font-family: 'Carter One', cursive;
 }
 
 .switch {
@@ -237,6 +246,7 @@ input:checked + .slider:before {
     position: fixed;
     border-radius: 25px;
     border-style: groove;
+    box-shadow: 10px 10px 5px grey;
     height: 160px;
     width: 350px;
     margin-top: 18%;
@@ -248,6 +258,7 @@ input:checked + .slider:before {
     margin-top: 2%;
     margin-right: 30%;
     margin-left: 33.5%;
+    font-family: 'Carter One', cursive;
 }
 
 .login p {
@@ -255,6 +266,7 @@ input:checked + .slider:before {
     margin-top: 5%;
     margin-right: 24%;
     margin-left: 25.5%;
+    font-family: 'Carter One', cursive;
 }
 
 .login form {
@@ -272,6 +284,7 @@ input:checked + .slider:before {
     height: 15px;
     color: white;
     font-size: 15px;
+    font-family: 'Carter One', cursive;
 }
 
 .login input[type="submit"] {
@@ -283,6 +296,7 @@ input:checked + .slider:before {
     color: white;
     font-size: 15px;
     border-radius: 10px;
+    font-family: 'Carter One', cursive;
 }
 
 .backbutton {
@@ -294,7 +308,7 @@ input:checked + .slider:before {
 
 .friends h2 {
     color: white;
-    font-family: sans-serif;
+    font-family: 'Carter One', cursive;
     margin-top: 1%;
     margin-left: 70.5%;
     margin-right: 12.5%;
@@ -309,6 +323,7 @@ input:checked + .slider:before {
     height: 325px;
     width: 275px;
     border-style: groove;
+    box-shadow: 10px 10px 5px grey;
     border-radius: 25px;
     margin-left: 56%;
     margin-top: 6.5%;
@@ -324,6 +339,7 @@ input:checked + .slider:before {
     color: white;
     border-bottom: 2px groove #fff;
     cursor: pointer;
+    font-family: 'Carter One', cursive;
 }
 
 .box {
@@ -331,6 +347,7 @@ input:checked + .slider:before {
     height: 250px;
     width: 325px;
     border-style: groove;
+    box-shadow: 10px 10px 5px grey;
     border-radius: 25px;
     position: fixed;
     margin-left: 1.5%;
@@ -339,7 +356,7 @@ input:checked + .slider:before {
 
 .yourtown h2 {
     color: white;
-    font-family: sans-serif;
+    font-family: 'Carter One', cursive;
     margin-top: 1%;
     margin-left: 18%;
     margin-right: 57%;
