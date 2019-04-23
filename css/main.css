@@ -4,19 +4,59 @@
 }
 
 /* css til loading bar på index.html - mathias */
-.wrapper{
+.wrapper {
   width: auto;
   height: 375px;
   background-color: black;
 }
 
-h1{
+.index_box {
+  width: 50%;
   text-align: center;
-  vertical-align: middle;
-  line-height: 335px;
-  font-family: ;
-  font-size: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0%, 40%);
+  padding: 5%;
+  border: solid white;
+}
+
+.index_box_styleguide {
+  width: 40%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  transform: translate(0%, 45%);
+  border: solid white;
+}
+
+.index_box h1 {
   color: white;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 30px;
+}
+
+.index_box_styleguide h2 {
+  color: white;
+  font-family: 'Cutive Mono', monospace;
+}
+
+#logo {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 35px;
+  color: white;
+  padding: 2.5%;
 }
 
 #loading {
@@ -31,6 +71,7 @@ h1{
   text-align: right;
   line-height: 25px;
 }
+
 
 /*============================================== Bank page - Jeppe Skoett =======================================================================*/
 
@@ -64,7 +105,7 @@ h1{
     background-color: white;
     display: none;
     overflow: hidden;
-    
+
 }
 
 .active, .buy:hover{
@@ -288,7 +329,7 @@ input:checked + .slider:before {
     border-radius: 25px;
     position: fixed;
     margin-left: 1.5%;
-    margin-top: 6.5%;    
+    margin-top: 6.5%;
 }
 
 .yourtown h2 {
