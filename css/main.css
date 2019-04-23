@@ -129,6 +129,8 @@ h3 {
     position: absolute;
 }
 
+
+
 /*Settings - Andreas*/
 
 .sound {
@@ -420,4 +422,5 @@ input:checked + .slider:before {
     margin: 5px;
     color: #F0F8FF;
     font-size: 50px;
+    font-family: 'Carter One', cursive;
 }
