@@ -85,14 +85,8 @@ h1{
 
 /*Settings - Andreas*/
 
-.background {
-    background-color: darkblue;
-    height: 100%;
-    width: 100%;
-}
-
 .sound {
-    background-color: palevioletred;
+    background-color: dimgrey;
     position: fixed;
     border-radius: 25px;
     border-style: groove;
@@ -110,7 +104,7 @@ h1{
 }
 
 .animation {
-    background-color: palevioletred;
+    background-color: dimgrey;
     position: fixed;
     border-radius: 25px;
     border-style: groove;
@@ -163,7 +157,7 @@ h1{
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: slategrey
 }
 
 input:focus + .slider {
@@ -193,7 +187,7 @@ input:checked + .slider:before {
 }
 
 .login {
-    background-color: palevioletred;
+    background-color: dimgrey;
     position: fixed;
     border-radius: 25px;
     border-style: groove;
@@ -247,7 +241,7 @@ input:checked + .slider:before {
 
 .backbutton {
     position: fixed;
-    margin-top: 46%;
+    margin-top: 46.3%;
 }
 
 /*SoMe - Andreas*/
@@ -265,7 +259,7 @@ input:checked + .slider:before {
 }
 
 .friendlist {
-    background-color: palevioletred;
+    background-color: dimgrey;
     height: 325px;
     width: 275px;
     border-style: groove;
@@ -277,7 +271,7 @@ input:checked + .slider:before {
 }
 
 .friend {
-    background-color: palevioletred;
+    background-color: dimgrey;
     height: 46.42px;
     margin-top: 12%;
     text-align: center;
@@ -287,7 +281,7 @@ input:checked + .slider:before {
 }
 
 .box {
-    background-color: palevioletred;
+    background-color: dimgrey;
     height: 250px;
     width: 325px;
     border-style: groove;
@@ -310,7 +304,7 @@ input:checked + .slider:before {
 }
 
 .town {
-    background-color: palevioletred;
+    background-color: dimgrey;
     height: 190px;
     width: 310px;
     border-style: groove;
@@ -321,7 +315,7 @@ input:checked + .slider:before {
 }
 
 .someshare {
-    background-color: palevioletred;
+    background-color: dimgrey;
     height: 40px;
     width: 310px;
     border-style: groove;
@@ -358,13 +352,13 @@ input:checked + .slider:before {
 }
 
 .facebook {
- 	background: #3b5998;
+ 	background: #000;
 }
 
 .twitter {
-  	background: #55acee;
+  	background: #000;
 }
 
 .youtube {
-  	background: #dd4b39;
+  	background: #000;
 }
