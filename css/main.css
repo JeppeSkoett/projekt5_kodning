@@ -97,12 +97,12 @@ h3 {
 }
 
 .buy p{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 180px;
+    margin-right: 180px;
     padding-top: 25px;
     font-family: 'Carter One', cursive;
     font-size: 45px;
-    color: white;
+    color: #F0F8FF;
     position: relative;
 }
 
@@ -116,6 +116,7 @@ h3 {
 .paneltxt{
     font-size: 2em;
     font-family: 'Carter One', cursive;
+    color: black;
 }
 
 .active, .buy:hover{
@@ -134,7 +135,12 @@ h3 {
     position: absolute;
 }
 
+
 /*Settings - Andreas*/
+
+.back{
+    background-image: url(/images/city.png);
+}
 
 .sound {
     background-color: dimgrey;
@@ -429,12 +435,13 @@ input:checked + .slider:before {
 /*Citymap*/
 
 #demo {
-    
+
     position: fixed;
     top: 5%;
-    left: 70%;
+    left: 75%;
     float: left;
     margin: 5px;
     color: #F0F8FF;
-    font-size: 50px;
+    font-size: 30px;
+    font-family: 'Carter One', cursive;
 }
