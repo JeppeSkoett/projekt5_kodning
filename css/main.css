@@ -4,19 +4,59 @@
 }
 
 /* css til loading bar på index.html - mathias */
-.wrapper{
+.wrapper {
   width: auto;
   height: 375px;
   background-color: black;
 }
 
-h1{
+.index_box {
+  width: 50%;
   text-align: center;
-  vertical-align: middle;
-  line-height: 335px;
-  font-family: ;
-  font-size: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0%, 40%);
+  padding: 5%;
+  border: solid white;
+}
+
+.index_box_styleguide {
+  width: 40%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  transform: translate(0%, 45%);
+  border: solid white;
+}
+
+.index_box h1 {
   color: white;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 30px;
+}
+
+.index_box_styleguide h2 {
+  color: white;
+  font-family: 'Cutive Mono', monospace;
+}
+
+#logo {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 35px;
+  color: white;
+  padding: 2.5%;
 }
 
 #loading {
@@ -31,6 +71,7 @@ h1{
   text-align: right;
   line-height: 25px;
 }
+
 
 /*============================================== Bank page - Jeppe Skoett =======================================================================*/
 
@@ -64,6 +105,7 @@ h1{
     background-color: white;
     display: none;
     overflow: hidden;
+<<<<<<< HEAD
 }
 
 .paneltxt{
@@ -89,14 +131,8 @@ h1{
 
 /*Settings - Andreas*/
 
-.background {
-    background-color: darkblue;
-    height: 100%;
-    width: 100%;
-}
-
 .sound {
-    background-color: palevioletred;
+    background-color: dimgrey;
     position: fixed;
     border-radius: 25px;
     border-style: groove;
@@ -114,7 +150,7 @@ h1{
 }
 
 .animation {
-    background-color: palevioletred;
+    background-color: dimgrey;
     position: fixed;
     border-radius: 25px;
     border-style: groove;
@@ -167,7 +203,7 @@ h1{
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: slategrey
 }
 
 input:focus + .slider {
@@ -197,7 +233,7 @@ input:checked + .slider:before {
 }
 
 .login {
-    background-color: palevioletred;
+    background-color: dimgrey;
     position: fixed;
     border-radius: 25px;
     border-style: groove;
@@ -251,7 +287,7 @@ input:checked + .slider:before {
 
 .backbutton {
     position: fixed;
-    margin-top: 46%;
+    margin-top: 46.3%;
 }
 
 /*SoMe - Andreas*/
@@ -269,7 +305,7 @@ input:checked + .slider:before {
 }
 
 .friendlist {
-    background-color: palevioletred;
+    background-color: dimgrey;
     height: 325px;
     width: 275px;
     border-style: groove;
@@ -281,23 +317,24 @@ input:checked + .slider:before {
 }
 
 .friend {
-    background-color: palevioletred;
+    background-color: dimgrey;
     height: 46.42px;
     margin-top: 12%;
     text-align: center;
     color: white;
     border-bottom: 2px groove #fff;
+    cursor: pointer;
 }
 
 .box {
-    background-color: palevioletred;
+    background-color: dimgrey;
     height: 250px;
     width: 325px;
     border-style: groove;
     border-radius: 25px;
     position: fixed;
     margin-left: 1.5%;
-    margin-top: 6.5%;    
+    margin-top: 6.5%;
 }
 
 .yourtown h2 {
@@ -313,7 +350,7 @@ input:checked + .slider:before {
 }
 
 .town {
-    background-color: palevioletred;
+    background-color: dimgrey;
     height: 190px;
     width: 310px;
     border-style: groove;
@@ -324,7 +361,7 @@ input:checked + .slider:before {
 }
 
 .someshare {
-    background-color: palevioletred;
+    background-color: dimgrey;
     height: 40px;
     width: 310px;
     border-style: groove;
@@ -332,4 +369,42 @@ input:checked + .slider:before {
     position: fixed;
     margin-top: 30.3%;
     margin-left: 0.75%;
+}
+
+#share {
+	width: 100%;
+  	text-align: center;
+}
+
+#share a {
+	width: 35px;
+  	height: 35px;
+  	display: inline-block;
+  	margin: 3px;
+  	border-radius: 50%;
+  	font-size: 24px;
+  	color: #fff;
+	transition: opacity 0.15s linear;
+}
+
+#share a:hover {
+	opacity: 1;
+}
+
+#share i {
+  	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.facebook {
+ 	background: #000;
+}
+
+.twitter {
+  	background: #000;
+}
+
+.youtube {
+  	background: #000;
 }
