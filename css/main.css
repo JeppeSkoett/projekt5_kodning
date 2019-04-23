@@ -403,3 +403,16 @@ input:checked + .slider:before {
 .youtube {
   	background: #000;
 }
+
+/*Citymap*/
+
+#demo {
+    
+    position: fixed;
+    top: 5%;
+    left: 70%;
+    float: left;
+    margin: 5px;
+    color: #F0F8FF;
+    font-size: 50px;
+}

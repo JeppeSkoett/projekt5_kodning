@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Main</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        
+       
+    </head>
+    <body>
+<img src="images/city.png" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="indstillinger" title="indstillinger" href="Settings.html" coords="49,50,37" shape="circle">
+    <area target="" alt="venner" title="venner" href="SoMe.html" coords="49,143,37" shape="circle">
+    <area target="" alt="bank" title="bank" href="bankpage.html" coords="259,359,247,400,253,520,262,526,410,528,426,513,418,395,370,354,314,346" shape="poly">
+    <area target="" alt="vejstation" title="vejstation" href="" coords="629,148,574,177,561,214,551,251,561,269,596,278,596,382,573,392,571,576,623,608,692,582,703,401,665,380,660,275,709,266,718,223,690,182,656,152" shape="poly">
+    <area target="" alt="" title="" href="" coords="792,431,853,685,1230,686,1031,427" shape="poly">
+</map>
+        
+<p id="demo"></p>
+
+<script>
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+  var d = new Date();
+  document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
+
+    </body>
+</html>  
