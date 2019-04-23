@@ -447,6 +447,3 @@ input:checked + .slider:before {
     font-family: 'Carter One', cursive;
 }
 
-#knapreturn{
-    z-index: 1;
-}
