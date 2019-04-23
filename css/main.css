@@ -87,10 +87,11 @@ h3 {
 }
 
 .buy{
-    background-color: black;
+    background-color: #191847;
     height: 100px;
     width: 667px;
     margin-bottom: 5px;
+    border-style: groove;
     border-radius: 8px;
     cursor: pointer;
     transition: 0.4s;
@@ -141,7 +142,7 @@ h3 {
 }
 
 .sound {
-    background-color: dimgrey;
+    background-color: #191847;
     position: fixed;
     border-radius: 25px;
     border-style: groove;
@@ -161,7 +162,7 @@ h3 {
 }
 
 .animation {
-    background-color: dimgrey;
+    background-color: #191847;
     position: fixed;
     border-radius: 25px;
     border-style: groove;
@@ -246,7 +247,7 @@ input:checked + .slider:before {
 }
 
 .login {
-    background-color: dimgrey;
+    background-color: #191847;
     position: fixed;
     border-radius: 25px;
     border-style: groove;
@@ -313,7 +314,7 @@ input:checked + .slider:before {
 /*SoMe - Andreas*/
 
 .friends h2 {
-    color: #F0F8FF;
+    color: #191847;
     font-family: 'Carter One', cursive;
     margin-top: 0.5%;
     margin-left: 70.5%;
@@ -325,7 +326,7 @@ input:checked + .slider:before {
 }
 
 .friendlist {
-    background-color: dimgrey;
+    background-color: #191847;
     height: 325px;
     width: 275px;
     border-style: groove;
@@ -338,7 +339,7 @@ input:checked + .slider:before {
 }
 
 .friend {
-    background-color: dimgrey;
+    background-color: #191847;
     height: 46.42px;
     margin-top: 12%;
     text-align: center;
@@ -349,7 +350,7 @@ input:checked + .slider:before {
 }
 
 .box {
-    background-color: dimgrey;
+    background-color: #191847;
     height: 250px;
     width: 325px;
     border-style: groove;
@@ -361,7 +362,7 @@ input:checked + .slider:before {
 }
 
 .yourtown h2 {
-    color: #F0F8FF;
+    color: #191847;
     font-family: 'Carter One', cursive;
     margin-top: 0.5%;
     margin-left: 18%;
@@ -373,7 +374,7 @@ input:checked + .slider:before {
 }
 
 .town {
-    background-color: dimgrey;
+    background-color: #191847;
     height: 190px;
     width: 310px;
     border-style: groove;
@@ -384,7 +385,7 @@ input:checked + .slider:before {
 }
 
 .someshare {
-    background-color: dimgrey;
+    background-color: #191847;
     height: 40px;
     width: 310px;
     border-style: groove;
