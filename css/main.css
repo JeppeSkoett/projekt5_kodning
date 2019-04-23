@@ -412,7 +412,7 @@ input:checked + .slider:before {
 /*Citymap*/
 
 #demo {
-    
+
     position: fixed;
     top: 5%;
     left: 70%;
