@@ -445,3 +445,7 @@ input:checked + .slider:before {
     font-size: 30px;
     font-family: 'Carter One', cursive;
 }
+
+#knapreturn{
+    z-index: 1;
+}
