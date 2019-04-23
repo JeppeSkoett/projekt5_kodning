@@ -105,7 +105,12 @@ h3 {
     background-color: white;
     display: none;
     overflow: hidden;
+<<<<<<< HEAD
+}
 
+.paneltxt{
+    font-size: 2em;
+    font-family: sans-serif;
 }
 
 .active, .buy:hover{
