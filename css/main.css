@@ -425,4 +425,5 @@ input:checked + .slider:before {
     margin: 5px;
     color: #F0F8FF;
     font-size: 30px;
+    font-family: 'Carter One', cursive;
 }
