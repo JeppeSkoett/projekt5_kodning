@@ -6,6 +6,7 @@ function update() {
   function frame() {
     if (width >= 100) {
       clearInterval(id);
+      location.replace("city.html");
     } else {
       width++;
       elem.style.width = width + '%';
