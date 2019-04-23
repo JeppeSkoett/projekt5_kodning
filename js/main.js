@@ -1,10 +1,10 @@
 //js til loading bar på index.html - mathias
 function update() {
   let elem = document.getElementById("progress");
-  let width = 0;
+  let width = 1;
   let id = setInterval(frame, 20);
   function frame() {
-    if (width == 100) {
+    if (width >= 100) {
       clearInterval(id);
       location.replace("city.html");
     } else {
@@ -16,15 +16,17 @@ function update() {
 }
 
 //js til bankpage - Jeppe
+/* acc = Accumulator, betyder at kalde på noget og trække det tilbage igen */
 let acc = document.getElementsByClassName("buy");
                 let i;
 
                 for(i=0; i < acc.length; i++){
                     acc[i].addEventListener("click", function(){
-                       /* Toggle between adding and removing the active class, to highlight the button that controls the panel */
+                        /* Vælg mellem tilføj og fjerne den aktive class, for at highlighte knappen som kontrollere min div "panel" */
                         this.classList.toggle("active");
 
-                        /* Toggle between hiding and showing the active panel */
+                        /* Vælger imellem at vise min div "panel" med tekst indeni, til at gemme den.  */
+                        
                         let panel = this.nextElementSibling;
                         if (panel.style.display === "block"){
                           panel.style.display = "none";
